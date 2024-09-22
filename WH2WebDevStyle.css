@@ -1,0 +1,243 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    background-color: rgb(227, 230, 217);
+}
+
+.container
+{
+padding-left:7%;
+padding-right: 7%;
+}
+
+.header
+{
+    position: relative;
+    color: rgb(225, 222, 222);
+    background-color: rgb(74, 73, 73);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1
+{
+    color: rgb(255, 255, 255);  
+}
+
+.header ul 
+{
+  display: inline-block;
+  padding: 5px;
+}
+
+.header ul a 
+{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  color: rgb(234, 234, 234);
+}
+
+.header ul a:hover
+{
+    color: rgb(197, 197, 67);
+}
+
+.aboutme
+{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+
+#pic
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(./picture.jpg);
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+.skills
+{
+   /* width: 100%;*/
+    height: 300px;
+    background-image: url(./picture2.jpeg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 3px gray;  
+}
+
+.skills-div
+{
+    opacity: 0.7; 
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.skills-div a
+{
+    background-color: rgb(5, 48, 67);
+    padding:10px;
+    margin: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(234, 234, 234);
+}
+
+.skills-div a:hover
+{
+    position: relative;
+    bottom:10px;
+    background-color: rgb(3, 33, 46);
+
+}
+
+.skills-div a:active
+{
+    background-color: black;
+}
+
+
+h2
+{
+    font-size: 30px;
+}
+
+.projects
+{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.pro
+{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(231, 165, 165);
+    margin-bottom: 10px;
+    width: 300px;
+    display: block;
+}
+
+#pro1
+{
+    position: absolute;
+    top:-200px;
+    left:100px;
+}
+
+#pro4
+{
+    background-color: rgb(191, 138, 223);
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.contact
+{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(247, 245, 245);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+label, input, textarea
+{
+    display: block;
+    margin: 5px;
+    padding: 7px;
+    width: 100%;
+   
+}
+
+
+
+
+#submit
+{
+    font-size: 18px;
+    width:100px;
+    background-color: white;
+    color: rgb(66, 139, 192);
+    border-color: rgb(66, 139, 192);
+    border-radius: 7px;
+    padding:10px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#submit:hover
+{
+    background-color:  rgb(66, 139, 192);
+    color: white;
+    border-color: rgb(66, 139, 192);
+}
+
+.footer
+{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(247, 245, 245);
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.footer a 
+{
+    color: rgb(189, 189, 20);
+    text-decoration: none;
+}
+
+.go-top
+{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 40px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+
+}
+
+.go-top>a
+{
+    text-decoration: none;
+}
